@@ -1,6 +1,6 @@
 import React from 'react'
-import Preview from './Preview/Preview.js'
-import SpriteDetails from './SpriteDetails/SpriteDetails.js'
+import Preview from './Preview/Preview.jsx'
+import SpriteDetails from './SpriteDetails/SpriteDetails.jsx'
 
 function Canvas() {
   return (
