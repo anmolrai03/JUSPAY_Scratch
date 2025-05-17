@@ -1,14 +1,20 @@
-import React from 'react'
-import Preview from './Preview/Preview.jsx'
-import SpriteDetails from './SpriteDetails/SpriteDetails.jsx'
+// Canvas.jsx (simplified)
+import Preview from './Preview/Preview';
 
-function Canvas() {
+function Canvas({ sprites }) {
   return (
-    <main className='flex flex-row'>
-      <Preview />
-      <SpriteDetails />
-    </main>
-  )
+    <div className="h-full relative bg-gray-50 rounded-lg">
+      {sprites.map(sprite => (
+        <Preview 
+          key={sprite.id}
+          x={sprite.x}
+          y={sprite.y}
+          scale={sprite.scale}
+          component={sprite.component}
+        />
+      ))}
+    </div>
+  );
 }
 
-export default Canvas
+export default Canvas;

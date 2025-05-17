@@ -1,9 +1,16 @@
-import React from 'react'
+// Preview.jsx (updated)
+import React from 'react';
 
-function Preview() {
+export default function Preview({ x, y, scale, component: Component }) {
   return (
-    <div>Preview</div>
-  )
+    <div 
+      className="absolute transition-all duration-300"
+      style={{
+        transform: `translate(${x}px, ${y}px) scale(${scale})`,
+        transformOrigin: 'center'
+      }}
+    >
+      {Component && <Component />}
+    </div>
+  );
 }
-
-export default Preview
