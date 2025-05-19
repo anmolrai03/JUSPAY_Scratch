@@ -7,6 +7,11 @@ This project is a React application bootstrapped with Vite, designed to provide 
 The project is deployed and accessible at:  
 [https://juspay-scratch-eight.vercel.app/](https://juspay-scratch-eight.vercel.app/)
 
+## Video Demo
+
+Watch the video demo of the project here:  
+[Video Demo](https://drive.google.com/file/d/1SvSLMd0asGGpSviLRR7wnKJHHIEyCq6K/view?usp=drive_link)
+
 ## Getting Started
 
 To run the project locally, follow these steps:
