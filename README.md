@@ -1,12 +1,37 @@
-# React + Vite
+# Scratch Assignment - React + Vite Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React application bootstrapped with Vite, designed to provide a performant and modern development experience.
 
-Currently, two official plugins are available:
+## Deployment
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project is deployed and accessible at:  
+[https://juspay-scratch-eight.vercel.app/](https://juspay-scratch-eight.vercel.app/)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run the project locally, follow these steps:
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Start the development server:
+
+```bash
+npm run dev
+```
+
+3. Open your browser and navigate to the URL provided by the development server (usually `http://localhost:5173`).
+
+## Features
+
+- Built with React and Vite for fast development and hot module replacement.
+- Modular component structure under `src/components`.
+- Uses modern JavaScript and React best practices.
+
+## Additional Resources
+
+- [Vite Documentation](https://vitejs.dev/)
+- [React Documentation](https://reactjs.org/)
